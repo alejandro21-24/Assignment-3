@@ -1,3 +1,8 @@
-# Implement your Node class here
 class Node:
-    pass # delete this line
+    """
+    A single node used to build linked data structures (Stack, Queue).
+    """
+
+    def __init__(self, value):
+        self.value = value
+        self.next = None
